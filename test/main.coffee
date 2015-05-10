@@ -10,7 +10,7 @@ getARandomString = -> Math.random().toString(36).replace(/[^a-zA-Z]+/g, '')
 
 inside '_', we require 'underscore'
 
-inside 'backbone-drupal', we require '../dist/index'
+inside 'backbone-drupal', we require '../dist/js/index'
 
 load('chai').should()
 
