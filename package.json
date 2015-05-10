@@ -39,14 +39,25 @@
     "webkit": "*"
   },
   "dependencies": {
-    "underscore": "1.*"
+    "backbone": "^1.1.2",
+    "jquery": "^2.1.4",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "chai": "^2.0.0",
     "coffee-script": "^1.9.0",
     "coveralls": "^2.11.2",
     "gulp": "^3.8.11",
+    "gulp-cog": "^0.1.2",
+    "gulp-concat": "^2.5.2",
+    "gulp-foreach": "^0.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.4",
     "istanbul": "^0.3.8",
-    "mocha": "^2.1.0"
+    "mocha": "^2.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
